@@ -1,3 +1,4 @@
+// Question: How can a menu add, remove, display, and exit an integer list?
 package Arrays.List;
 //A Menu program with the following options
 // Add Element
@@ -10,7 +11,7 @@ import java.util.Scanner;
 
 public class Menu {
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         ArrayList<Integer> integers = new ArrayList<>();
         Scanner input = new Scanner(System.in);
         while (true) {
